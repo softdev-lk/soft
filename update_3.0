@@ -1,0 +1,7 @@
+src/AppBundle/Form/SettingsType.php
+src/AppBundle/Entity/Settings.php
+src/AppBundle/Resources/views/Home/settings.html.twig
+src/AppBundle/Controller/VersionController.php
+src/AppBundle/Controller/StatusController.php
+
+ALTER TABLE settings_table ADD autoapprove TINYINT(1) NOT NULL, ADD uploadvideo TINYINT(1) NOT NULL, ADD uploadyoutube TINYINT(1) NOT NULL, ADD uploadgif TINYINT(1) NOT NULL, ADD uploadimage TINYINT(1) NOT NULL, ADD uploadquote TINYINT(1) NOT NULL;
